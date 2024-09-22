@@ -1,0 +1,12 @@
+Bit shift ::::::::....
+
+16--> 1 0 0 0 0                                                 12--> 1 1 0 0
+
+							        same method but we 
+								we give n=3.
+shift bit is 1.							it is not a power of two.								
+check last to first .						
+if we get 0 then move right shift.
+if we found 1 then we stop.
+after the removing all list significant 0 bits 
+then your n=1 . then it is the power of two.
